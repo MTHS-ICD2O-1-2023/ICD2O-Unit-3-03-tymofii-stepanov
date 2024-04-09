@@ -12,9 +12,10 @@
 function calculateVolumeOfSphere() {
   // input
   const radius = parseInt(document.getElementById('radius-mm').value)
+  const pNumber = 3.14;
 
   // process
-  const VolumeOfSphere = 4 / 3 * 3.14 (radius * radius * radius)
+  const VolumeOfSphere = 4 / 3 * pNumber * (radius * radius * radius)
 
   // output
   document.getElementById('volume').innerHTML = 'Volume is ' + VolumeOfSphere + ' mm'
